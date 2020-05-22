@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][outer] = []
         end
         pigeon_list[name][outer] << middle.to_s
-          
-          
-    
-  
+      end
+    end
+  end
+  pigeon_list
 end
