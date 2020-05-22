@@ -5,6 +5,8 @@ def nyc_pigeon_organizer(data)
     data[outer] do |middle, names|
       data[middle] do |names|
         if !pigeon_list[name]
+          pigeon_list[name] = {}
+          
     
   
 end
