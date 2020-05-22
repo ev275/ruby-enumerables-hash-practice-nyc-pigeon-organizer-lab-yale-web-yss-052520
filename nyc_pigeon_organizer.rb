@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name][outer]
           pigeon_list[name][outer] = []
         end
-        if !pigeon_list[]
+        pigeon_list[name][outer] << middle.to_s
           
           
     
